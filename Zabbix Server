@@ -96,7 +96,7 @@ mysql> quit;
 
 sudo nano /etc/zabbix/zabbix_server.conf 
 
-Line 124
+Line 131
 ---------------------------------------------------------------------------
 […]
 DBPassword=Welcome@123..
@@ -121,5 +121,5 @@ systemctl status zabbix-server zabbix-agent apache2
 - Bước 8: Đăng nhập vào trang web quản lý của Zabbix Server và theo hướng dẫn trên web để cài đặt ứng dụng
 
 http://địa chỉ server/zabbix/
-
+default : admin / Zabbix
 
