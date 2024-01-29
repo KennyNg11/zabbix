@@ -1,3 +1,10 @@
 sudo apt install snmp -y
 hostname -f // get hostname info
 sudo apt install snmpd -y
+sudo systemctl start snmpd
+sudo systemctl enable snmpd
+sudo nano /etc/snmp/snmpd.conf
+// Modify : 
+sysLocation bicomputer.local
+sysContact uyng1102@gmail.com
+adding # to sysServices 72
