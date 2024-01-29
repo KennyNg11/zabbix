@@ -1,1 +1,3 @@
 sudo apt install snmp -y
+hostname -f // get hostname info
+sudo apt install snmpd -y
