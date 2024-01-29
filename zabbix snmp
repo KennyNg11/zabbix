@@ -8,3 +8,12 @@ sudo nano /etc/snmp/snmpd.conf
 sysLocation bicomputer.local
 sysContact uyng1102@gmail.com
 adding # to sysServices 72
+adding # to master agentx
+
+
+sudo systemctl restart snmpd
+sudo systemctl status snmpd
+sudo ufw status
+sudo ufw allow 161
+sudo ufw reload
+sudo ufw status
