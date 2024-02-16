@@ -11,5 +11,6 @@ Hostname=Server2
 
 sudo systemctl restart zabbix-agent
 sudo systemctl enable zabbix-agent 
-sudo systemctl stop zabbix-agent 
 sudo systemctl status zabbix-agent
+
+sudo systemctl stop zabbix-agent 
